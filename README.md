@@ -18,4 +18,8 @@ public class Example{
    File sourceFile =new File("C.text");
  char c[]=new char[7];
  ```
- 
+通过代码将输出源和输入源进行表示
+```
+try {
+	   Writer out = new FileWriter(targetFile,true);
+	   Reader in =new FileReader(sourceFile);
