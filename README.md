@@ -23,3 +23,8 @@ public class Example{
 try {
 	   Writer out = new FileWriter(targetFile,true);
 	   Reader in =new FileReader(sourceFile);
+```
+＃实验结果
+实验失败
+＃实验感想
+通过本次实验，我发现了自己的不足，还有很多不会，
